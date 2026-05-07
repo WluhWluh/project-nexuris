@@ -1,26 +1,26 @@
-* text=auto
+* text=auto eol=lf
 
 # C# scripts and Unity YAML assets should stay readable in Git.
-*.cs text diff=csharp
-*.asmdef text
-*.asmref text
-*.shader text
-*.cginc text
-*.hlsl text
-*.json text
-*.inputactions text
-*.uxml text
-*.uss text
-*.asset text merge=unityyamlmerge
-*.mat text merge=unityyamlmerge
-*.meta text merge=unityyamlmerge
-*.prefab text merge=unityyamlmerge
-*.unity text merge=unityyamlmerge
-*.scenetemplate text merge=unityyamlmerge
-*.controller text merge=unityyamlmerge
-*.anim text merge=unityyamlmerge
-*.overrideController text merge=unityyamlmerge
-*.playable text merge=unityyamlmerge
+*.cs text eol=lf diff=csharp
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+*.json text eol=lf
+*.inputactions text eol=lf
+*.uxml text eol=lf
+*.uss text eol=lf
+*.asset text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.meta text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.unity text eol=lf merge=unityyamlmerge
+*.scenetemplate text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.anim text eol=lf merge=unityyamlmerge
+*.overrideController text eol=lf merge=unityyamlmerge
+*.playable text eol=lf merge=unityyamlmerge
 
 # Keep source art, audio, video, and model files out of normal Git history.
 *.aseprite filter=lfs diff=lfs merge=lfs -text
